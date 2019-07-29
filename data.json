@@ -12,8 +12,8 @@
           "live_link": "https://mcmorki.github.io/RandomGenerator/",
           "github_link": "https://github.com/mcmorki/RandomGenerator",
           "image_urls": [
-              "../images/randomQuote1.PNG",
-              "../images/randomQuote2.PNG"
+              "/static/images/randomQuote1.PNG",
+              "/static/images/randomQuote2.PNG"
           ]
       },
       {
@@ -28,15 +28,15 @@
           "live_link": "https://mcmorki.github.io/Unit-02-Pagination-and-Filtering/",
           "github_link": "https://github.com/mcmorki/Unit-02-Pagination-and-Filtering",
           "image_urls": [
-              "../images/listPagination1.PNG",
-              "../images/listPagination2.PNG"
+              "/static/images/listPagination1.PNG",
+              "/static/images/listPagination2.PNG"
              
           ]
       },
       {
           "id": 2,
           "project_name": "Interactive Form",
-          "description": "This project is an interative registration form, which has customized and conditional behavior and interactivity. Instead of plain \"vanilla\" JavaScript, I used the popular jQuery library to complete this project.",
+          "description": "This project is an interative registration form, which has customized conditional behavior and interactivity. Instead of plain \"vanilla\" JavaScript, I used the popular jQuery library to complete this project.",
           "technologies": [
               "HTML",
               "CSS",
@@ -46,25 +46,26 @@
           "live_link": "https://mcmorki.github.io/Interactive-Form/",
           "github_link": "https://github.com/mcmorki/Interactive-Form",
           "image_urls": [
-              "../images/interactiveForm1.PNG",
-              "../images/interactiveForm2.PNG"
+              "/static/images/interactiveForm1.PNG",
+              "/static/images/interactiveForm2.PNG"
           ]
       },
       {
           "id": 3,
           "project_name": "Painters Palette",
-          "description": "In this project, I created a browser-based, word guessing game: \"Phrase Hunter.\" I used JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase, which a player tries to guess, by not only clicking letters on an onscreen keyboard, but also pressing a acutual keyboard.",
+          "description": "In this project, I created a browser-based, word guessing game: \"Painters Palette.\" I used JavaScript and OOP (Object-Oriented Programming) to select a random, hidden color, which a player tries to guess, by not only clicking letters on an onscreen keyboard, but also real time keyboard functionality.",
           "technologies": [
               "HTML",
               "CSS",
               "JavaScript",
               "Jquery"
           ],
-          "live_link": "https://mcmorki.github.io/Painters-Palette/",
+          "live_link": "https://mcmorki.github.io/Painters-Palette/oop_game-v2/index.html",
           "github_link": "https://github.com/mcmorki/Painters-Palette",
           "image_urls": [
-              "../images/Paint1.PNG",
-              "../images/Paint2.PNG"
+              "/static/images/PP1.PNG",
+              "/static/images/PP2.PNG",
+              "/static/images/PP3.PNG"
           ]
       },
       {
@@ -81,8 +82,8 @@
           "live_link": "https://mcmorki.github.io/Public-API-Request/",
           "github_link": "https://github.com/mcmorki/Public-API-Request",
           "image_urls": [
-              "../images/API1.PNG",
-              "../images/API2.PNG"
+              "/static/images/API1.PNG",
+              "/static/images/API2.PNG"
           ]
       }
   ]
