@@ -1,0 +1,89 @@
+{
+  "projects": [
+      {
+          "id": 0,
+          "project_name": "Random Quote Generator",
+          "description": "This app shows a random quote by using basic Javascript skills such as array, variables, loops, conditionals and object literals.",
+          "technologies": [
+              "HTML",
+              "CSS",
+              "JavaScript"
+          ],
+          "live_link": "https://mcmorki.github.io/RandomGenerator/",
+          "github_link": "https://github.com/mcmorki/RandomGenerator",
+          "image_urls": [
+              "../images/randomQuote1.PNG",
+              "../images/randomQuote2.PNG"
+          ]
+      },
+      {
+          "id": 1,
+          "project_name": "List Pagination and Filtering",
+          "description": "In this project, I wrote Javascript to display 10 names at a time, and add a navigation and search system. It works with  a list of any number of students",
+          "technologies": [
+              "HTML",
+              "CSS",
+              "JavaScript"
+          ],
+          "live_link": "https://mcmorki.github.io/Unit-02-Pagination-and-Filtering/",
+          "github_link": "https://github.com/mcmorki/Unit-02-Pagination-and-Filtering",
+          "image_urls": [
+              "../images/listPagination1.PNG",
+              "../images/listPagination2.PNG"
+             
+          ]
+      },
+      {
+          "id": 2,
+          "project_name": "Interactive Form",
+          "description": "This project is an interative registration form, which has customized and conditional behavior and interactivity. Instead of plain \"vanilla\" JavaScript, I used the popular jQuery library to complete this project.",
+          "technologies": [
+              "HTML",
+              "CSS",
+              "JavaScript",
+              "jQuery"
+          ],
+          "live_link": "https://mcmorki.github.io/Interactive-Form/",
+          "github_link": "https://github.com/mcmorki/Interactive-Form",
+          "image_urls": [
+              "../images/interactiveForm1.PNG",
+              "../images/interactiveForm2.PNG"
+          ]
+      },
+      {
+          "id": 3,
+          "project_name": "Painters Palette",
+          "description": "In this project, I created a browser-based, word guessing game: \"Phrase Hunter.\" I used JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase, which a player tries to guess, by not only clicking letters on an onscreen keyboard, but also pressing a acutual keyboard.",
+          "technologies": [
+              "HTML",
+              "CSS",
+              "JavaScript",
+              "Jquery"
+          ],
+          "live_link": "https://mcmorki.github.io/Painters-Palette/",
+          "github_link": "https://github.com/mcmorki/Painters-Palette",
+          "image_urls": [
+              "../images/Paint1.PNG",
+              "../images/Paint2.PNG"
+          ]
+      },
+      {
+          "id": 4,
+          "project_name": "Public API Requests ",
+          "description": "In this project, I wrote an app to share contact information for a fiction startup company. The app requests a JSON object from a public API by using \"Synchronous\" fetch with async/await. Then, it parses the data so that 12 employees are listed in a grid. Clicking the employee’s image or name will open a modal window with more detailed information, such as the employee’s birthday and address.",
+          "technologies": [
+              "HTML",
+              "CSS",
+              "JavaScript",
+              "JSON",
+              "public API"
+          ],
+          "live_link": "https://mcmorki.github.io/Public-API-Request/",
+          "github_link": "https://github.com/mcmorki/Public-API-Request",
+          "image_urls": [
+              "../images/API1.PNG",
+              "../images/API2.PNG"
+          ]
+      }
+  ]
+}

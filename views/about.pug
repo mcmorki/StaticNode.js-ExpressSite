@@ -1,0 +1,43 @@
+extends layout.pug
+
+block content
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+
+        h1 Kiyana McMorris
+
+        p.lead.text-light
+          | Full Stack JavaScript Developer.
+
+        .portfolio-bio
+          p hi world
+          
+            //- | Hello, out there! This is my introduction text. I can definitely say that I code better than I write texts. So if you already like the text here, I am the right man for you.
+            //- | Just click through my projects and convince yourself. We will get along great!
+      .cell.portfolio-meta.small-6.medium-2.large-3
+        h6 Skills
+
+        ul
+          li Express
+          li node.js
+          li HTML
+          li CSS
+          li JavaScript
+          li jQuery
+          li OOP
+          li API requests
+          li AJAX
+          li Git
+        h6 Contact Info
+
+       ul
+          li 555-555-1234
+          li kiyanamcmorris@email.com
+
+
+        //- a.button.expanded(href='http://www.linkedin.com/in/kiyanamcmorris', target='_blank') LinkedIn
+        a.button.expanded(href='https://github.com/mcmorki', target='_blank') GitHub
+        //- a.button.expanded(href='https://www.instagram.com/k', target='_blank') Instagram

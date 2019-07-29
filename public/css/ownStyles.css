@@ -1,0 +1,46 @@
+/*! Additional Styles for the Portfolio Project */
+
+h1,h2,h3,h4,h5,p{
+  font-family: 'Inconsolata', monospace;
+}
+
+.off-canvas-content{
+  background: white;
+}
+
+.portfolio-me{
+  background: #e5eaec;
+}
+
+.portfolio-me h5{
+  color: #555;
+}
+
+/*! Error Page */
+#error{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: calc(100vh - 65px);
+  padding: 40px;
+}
+
+#error p{
+  border: 1px solid red;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 5px 20px;
+}
+
+/* Index */
+.portfolio-index .cell a, .portfolio-project img{
+  filter: drop-shadow(0 0 5px grey);
+}
+
+.portfolio-index .thumbnail{
+  transition: all .5s;
+}
+.portfolio-index .thumbnail:hover{
+  transform: scale(1.05);
+}
