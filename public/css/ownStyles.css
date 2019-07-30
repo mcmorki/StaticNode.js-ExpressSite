@@ -3,12 +3,16 @@ body {
   background: rgb(80, 76, 76);
 }
 h1,h2,h3,h4,h5,p{
-  font-family: cursive;
+  font-family: 'Times New Roman', Times, serif;
   color: white;
 }
+#error > p,h3{
+  color: rgb(129, 5, 5);
+}
+
 
   h5{
-    font-family:  cursive ;
+    font-family:  'Times New Roman', Times, serif ;
     letter-spacing: 2.5px;
     -webkit-text-transform: uppercase;
     text-transform: uppercase;
@@ -24,7 +28,7 @@ h1,h2,h3,h4,h5,p{
 
   p{
     font-size: 15px;
-    color: rgb(133, 121, 121);
+    color: rgb(228, 224, 224);
   }
 
 .round{

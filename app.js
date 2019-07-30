@@ -1,33 +1,27 @@
 const express = require('express');
-const pug = require('pug');
-const path = require('path');
 const bodyParser = require('body-parser');
 const {projects} = require('./data.json');
 
 const app = express();
 app.use(bodyParser.urlencoded({ extended: false}));
 
-// Set pug
+// lets user use pug functionality 
 app.set('view engine', 'pug');
-// Set static route
+// makes Public folder static
 app.use('/static', express.static('public'));
-
-// Index route
+// get the information from index.pug 
 app.get("/", function(req, res, next){
   res.render('index', {projects});
 })
-
-// About route
+// get the information from about.pug 
 app.get("/about", function(req, res, next){
   res.render('about');
 })
-
-// Project route with ID param
+// get the information from project.pug accessing the parameters withing projects array
 app.get("/project/:id", function(req, res, next){
-  const pro = parseInt(req.params.id);
-  const project = projects[pro];
-
-  // check if project page has valid ID else throw specific project page error
+const pro = parseInt(req.params.id);
+const project = projects[pro];
+ // redners each project by special ID number if not valid throws an error
   if(Number.isInteger(pro) && pro < projects.length && pro >= 0){
     return res.render('project',{project});
   } else{
@@ -35,13 +29,11 @@ app.get("/project/:id", function(req, res, next){
     next(err);
   }
 })
-
-// Unspecific 404 error
+// validates a 404 error
 app.use(function(req, res, next){
   const err = new Error('Not found')
   next(err);
 })
-
 // Print error page
 app.use(function(err, req, res, next) {
   if (res.headersSent) {
@@ -49,16 +41,12 @@ app.use(function(err, req, res, next) {
   }
   res.locals.error = err;
   err.status = 404;
-
-  // Console Log
   console.error('Error message:', err.message, ', Error status:', err.status)
-
   // Error Page
   res.status(err.status);
   res.render('error');
 });
-
-// App listen
+// allows user to access app on local port:3000
 app.listen(3000, function (){
  console.log('The App is listening to port 3000')
 })
