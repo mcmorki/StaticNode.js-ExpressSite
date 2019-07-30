@@ -1,4 +1,7 @@
 
+body {
+  background: rgb(80, 76, 76);
+}
 h1,h2,h3,h4,h5,p{
   font-family: cursive;
   color: white;
@@ -29,7 +32,7 @@ h1,h2,h3,h4,h5,p{
 }
 
 .text-light{
-  color: rgb(161, 6, 6);
+  color: rgb(231, 222, 222);
 }
 
 .button{
@@ -94,7 +97,7 @@ a:hover{
 }
 
  .portfolio-breadcrumb a{
-   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+   font-family: serif;
    font-weight: 600;
    font-size: 13px;
    letter-spacing: 2.5px;
@@ -165,6 +168,3 @@ a:hover{
     line-height: 25px;
 }
 
-body {
-  background: black;
-}
